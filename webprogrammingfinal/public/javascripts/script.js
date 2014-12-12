@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $('.left.demo.sidebar')
-        .sidebar('toggle')
+    $('.sidebar').first()
+        .sidebar('attach events', '.toggle.button')
 });
