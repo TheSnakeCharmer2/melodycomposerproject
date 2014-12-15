@@ -1,4 +1,7 @@
 $(document).ready(function() {
-    $('.sidebar').first()
-        .sidebar('attach events', '.toggle.button')
+    $('#sidebar').stick_in_parent()
+});
+
+$(document).ready(function() {
+   $('#compose')
 });
