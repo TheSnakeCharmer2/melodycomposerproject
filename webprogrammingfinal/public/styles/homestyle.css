@@ -20,9 +20,26 @@ h1 {
     font-size:150%;
     font-family:cursive;
     color:white;
-}
-
-#composewords {
     text-align:center;
     text-decoration:underline;
+    -webkit-transition: width 1s;
+    transition: height .4s, width .4s, font-size .4s, top .4s;
+
+
+}
+#compose:hover {
+    width: 350px;
+    height: 130px;
+    top: 230px;
+    font-size: 175%;
+
+}
+
+
+#thetitle {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
 }

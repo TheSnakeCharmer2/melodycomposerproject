@@ -5,6 +5,21 @@
 }
 
 h1 {
-    color: #000000;
-    font-family:cursive;
+     color: #000000;
+     font-family:cursive;
+     text-align: center;
+ }
+
+body {
+    background-color: cadetblue;
 }
+
+#info {
+    top:150px;
+    left:350px;
+}
+#thanks {
+    top:260px;
+    left:450px;
+}
+

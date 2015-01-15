@@ -1,0 +1,11 @@
+#triplet {
+    width:60px;
+    height:40px;
+    position:relative;
+}
+
+h1 {
+    color: #000000;
+    font-family:cursive;
+    text-align: center;
+}

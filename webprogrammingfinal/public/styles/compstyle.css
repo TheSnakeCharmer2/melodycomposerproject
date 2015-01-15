@@ -7,4 +7,114 @@
 h1 {
     color: #000000;
     font-family:cursive;
+
+}
+
+body {
+    background-color: lightblue;
+}
+
+#buttonCq4 {
+    background-color:chocolate;
+    width:80px;
+    height:20px;
+    position:relative;
+}
+
+#buttonDq4 {
+    background-color:chocolate;
+    width:80px;
+    height:20px;
+    position:relative;
+}
+
+#buttonEq4 {
+    background-color:chocolate;
+    width:80px;
+    height:20px;
+    position:relative;
+}
+
+#buttonFq4 {
+    background-color:chocolate;
+    width:80px;
+    height:20px;
+    position:relative;
+}
+
+#buttonGq4 {
+    background-color:chocolate;
+    width:80px;
+    height:20px;
+    position:relative;
+}
+
+#buttonAq4 {
+    background-color:chocolate;
+    width:80px;
+    height:20px;
+    position:relative;
+}
+
+#buttonBq4 {
+    background-color:chocolate;
+    width:80px;
+    height:20px;
+    position:relative;
+}
+
+#buttonCq5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonDq5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonEq5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonFq5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonGq5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonAq5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonBq5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonCq6 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
 }

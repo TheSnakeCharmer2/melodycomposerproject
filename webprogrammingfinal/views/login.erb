@@ -1,0 +1,25 @@
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="styles/logstyle.css">
+  <!-- <script type="text/javascript" src="../public/javascripts/comp.js" >
+  </script> -->
+
+
+</head>
+
+<body>
+<a href="home.html"><h1><img id="triplet" src="photos/eighthTripet.gif" alt="M">elody Composer</h1></a>
+
+<form action="/dabase" method="post">
+        <b>Username:</b> <input type="text" name="username" maxlength="20" placeholder="Username">
+        <b>Password:</b> <input type="password" name="password" placeholder="Password">
+    <input value="Login" type="submit">
+</form>
+
+<% if @error == true %>
+   <p>Error: Username or password is incorrect. If you don't have an account,<a href="signup.html">Sign Up</p>
+
+<% end%>
+
+</body>
