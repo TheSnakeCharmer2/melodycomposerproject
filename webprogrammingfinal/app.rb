@@ -5,9 +5,18 @@ get '/' do
   redirect 'home.html'
 end
 
-get '/composer' do
-  erb :composer
+get '/composerC' do
+  erb :composerC
 end
+
+get '/composerG' do
+  erb :composerG
+end
+
+get '/composerF' do
+  erb :composerF
+end
+
 
 DB = Sequel.connect('sqlite://login.db')
 

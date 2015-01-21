@@ -1,5 +1,5 @@
-#triplet {
-    width:60px;
+#chordpic{
+    width:80px;
     height:40px;
     position:relative;
 }
@@ -14,11 +14,14 @@ body {
     background-color: lightblue;
 }
 
+/*composerC.erb*/
+
 #buttonCq4 {
-    background-color:chocolate;
+    background-color: #d2af44;
     width:80px;
     height:20px;
     position:relative;
+    border-radius:10px;
 }
 
 #buttonDq4 {
@@ -117,4 +120,269 @@ body {
     width: 80px;
     height: 20px;
     position: relative;
+}
+
+/*composerG.erb*/
+
+#buttonG3 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonA3 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonB3 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonC4 {
+    background-color: #d2af44;
+    width:80px;
+    height:20px;
+    position:relative;
+    border-radius:10px;
+}
+
+#buttonD4 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonE4 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonFS4 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonG4 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonA4 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonB4 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonC5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonD5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonE5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonFS5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonG5 {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+/*composerF.erb*/
+
+#buttonF3f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonG3f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonA4f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonBb4f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonC4f {
+    background-color: #d2af44;
+    width:80px;
+    height:20px;
+    position:relative;
+    border-radius:10px;
+}
+
+#buttonD4f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonE4f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonF4f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonG4f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonA5f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonBb5f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonC5f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonD5f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonE5f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#buttonF5f {
+    background-color: chocolate;
+    width: 80px;
+    height: 20px;
+    position: relative;
+}
+
+#CMstaffbutton {
+    background-color: rgba(44, 186, 44, 0.61);
+    border-radius:20px;
+    font-size:100%;
+    position:absolute;
+    font-family:"Arial Black", Gadget, sans-serif ;
+    color: rgb(0, 0, 0);
+}
+
+#FMstaffbutton {
+    background-color: rgba(44, 186, 44, 0.61);
+    border-radius:20px;
+    font-size:100%;
+    left:100px;
+    position:absolute;
+    font-family:"Arial Black", Gadget, sans-serif ;
+    color: rgb(0, 0, 0);
+}
+
+#GMstaffbutton {
+    background-color: rgba(44, 186, 44, 0.61);
+    border-radius:20px;
+    font-size:100%;
+    left:190px;
+    position:absolute;
+    font-family:"Arial Black", Gadget, sans-serif ;
+    color: rgb(0, 0, 0);
+}
+
+#CMajstaff {
+    position:relative;
+    left:400px;
+}
+
+#FMajstaff {
+    position:relative;
+    left:400px;
+}
+
+#GMajstaff {
+    position:relative;
+    left:400px;
+}
+
+h2 {
+    font-family:Helvetica, sans-serif;
+    color: #ff4500;
 }

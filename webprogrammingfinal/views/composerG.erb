@@ -1,0 +1,91 @@
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Chord Creator</title>
+  <link rel="stylesheet" type="text/css" href="styles/compstyle.css">
+  <script src="javascripts/vexflow/releases/vexflow-min.js"></script>
+  <script type="text/javascript" src="javascripts/compG.js" >
+  </script>
+</head>
+
+<body>
+<a href="home.html"><h1 id = "thetitle"><img id="chordpic" src="photos/chordpic.png" alt="C Major Triad">Chord Creator</h1></a>
+
+<dl id="sidebar">
+  <dt><a href="home.html">Home</a></dt>
+  <dt><a href="tutorial.html">Tutorial</a></dt>
+  <dt><a href="info.html">Info</a></dt>
+</dl>
+
+
+<h2><u>Key Signatures:</u></h2>
+<form action="composerC">
+  <input type="submit" id="CMstaffbutton" value="C Major" >
+</form>
+
+<form action="composerF">
+  <input type="submit" id="FMstaffbutton" value="F Major" >
+</form>
+
+<form action="composerG">
+  <input type="submit" id="GMstaffbutton" value="G Major" >
+</form>
+
+
+<canvas id = "GMajstaff" width="1000" height="200"></canvas><br>
+
+<hr >
+
+<input type="button" id="buttonG3" value="G " />
+<input type="button" id="buttonA3" value="A " />
+<input type="button" id="buttonB3" value="B " />
+<input type="button" id="buttonC4" value="Middle C " />
+<input type="button" id="buttonD4" value="D " />
+<input type="button" id="buttonE4" value="E " />
+<input type="button" id="buttonFS4" value="F&#9839; " />
+<input type="button" id="buttonG4" value="G " />
+<input type="button" id="buttonA4" value="A " />
+<input type="button" id="buttonB4" value="B " />
+<input type="button" id="buttonC5" value="C " />
+<input type="button" id="buttonD5" value="D " />
+<input type="button" id="buttonE5" value="E " />
+<input type="button" id="buttonFS5" value="F&#9839; " />
+
+<input type="button" id="buttonG5" value="G" />
+
+<script>
+    GMajstaff();
+    enable_buttonG3();
+    enable_buttonA3();
+    enable_buttonB3();
+    enable_buttonC4();
+    enable_buttonD4();
+    enable_buttonE4();
+    enable_buttonFS4();
+    enable_buttonG4();
+    enable_buttonA4();
+    enable_buttonB4();
+    enable_buttonC5();
+    enable_buttonD5();
+    enable_buttonE5();
+    enable_buttonFS5();
+    enable_buttonG5();
+    /*mcNote();
+    csNote();
+    dNote();
+    dsNote();
+    eNote();
+    fNote();
+    fsNote();
+    gNote();
+    gsNote();
+    aNote();
+    asNote();
+    bNote();
+    cNote();*/
+
+    //draw_note();
+    document.getElementById("GMstaffbutton").style.color = "blue";
+</script>
+
+<p style="position: absolute;left: 570px; bottom: 20px;font-size: 11px;">© 2015 TennisCrew Software, Inc.</p>
+</body>
